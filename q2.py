@@ -26,7 +26,9 @@ if animal == 'wolf':
     age = str(r.randint(0,13))+"-year-old"
     weight=str(r.uniform(12,79))+" kilograms"
 if animal == 'horse':
-    type = r.choice(["something"])
+    type = r.choice(["silver","white","black","brown"])
+    age = str(r.randint(0,30))+"-year-old"
+    weight = str(r.uniform(700,1000))+" kilograms"
 
 # Print a summary of your pet using an f-string
 print(f"Your pet is a {age} {type} {animal}, weighing {weight}.")#REPLACE THIS WITH YOUR CODE
